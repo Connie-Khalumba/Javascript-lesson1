@@ -23,11 +23,27 @@ else {
 
 
 
-    let score = 100;
+    let score = 60;
 
-    if (score >=80) {
+    if (score >=90) {
       console.log("You got an A");  
     }
-    else{
-        console.log("Marks are below average");
+    else if (score => 70){
+        console.log("You got a B");
     }
+    else if (score => 60){
+        console.log("You got a c");
+    }
+    else if (score => 50){
+        console.log("You got a c-");
+    }
+    else if (score => 40){
+        console.log("You got a D");
+    }
+    else if (score => 30){
+        console.log("You got a E");
+    }
+    else {
+        console.log("You got an F");
+    }
+   
