@@ -41,3 +41,20 @@ function displadisplayProduct() {
 }
 
 console.log(displayProduct());
+
+
+let b = 91
+function displayNumber() {
+ 
+  console.log(b);
+}
+displayNumber();
+
+
+function displaySum() {
+  var c = 10;
+  var d = 20;
+
+return (sum = c + d);
+}
+console.log(displaySum());

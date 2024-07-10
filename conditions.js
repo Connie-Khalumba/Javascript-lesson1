@@ -23,27 +23,52 @@ else {
 
 
 
-    let score = 60;
+//     let score = -190;
 
-    if (score >=90) {
-      console.log("You got an A");  
-    }
-    else if (score => 70){
-        console.log("You got a B");
-    }
-    else if (score => 60){
-        console.log("You got a c");
-    }
-    else if (score => 50){
-        console.log("You got a c-");
-    }
-    else if (score => 40){
-        console.log("You got a D");
-    }
-    else if (score => 30){
-        console.log("You got a E");
-    }
-    else {
-        console.log("You got an F");
-    }
-   
+//     if(score>100 || score >=0){
+//         console.log("Error: Invalid Score!");
+//     }
+
+//     else if (score >=85) {
+//       console.log("You got an A");  
+//     }
+//     else if (score >= 75){
+//         console.log("You got a B");
+//     }
+//     else if (score >= 65){
+//         console.log("You got a c");
+//     }
+//     else if (score >= 55){
+//         console.log("You got a c-");
+//     }
+//     else if (score >= 45){
+//         console.log("You got a D");
+//     }
+//     else if (score >= 35){
+//         console.log("You got an E");
+//     }
+//    else {
+//     console.log("You go an F");
+//    }
+
+   let grade = 90;
+
+   let grade = parseInt(prompt("Enter the score:"));
+
+if (grade > 100 || grade < 0) {
+    console.log("Error: Invalid Score!");
+} else if (score >= 85) {
+    console.log("You got an A");  
+} else if (score >= 75) {
+    console.log("You got a B");
+} else if (score >= 65) {
+    console.log("You got a C");
+} else if (score >= 55) {
+    console.log("You got a C-");
+} else if (score >= 45) {
+    console.log("You got a D");
+} else if (score >= 35) {
+    console.log("You got an E");
+} else {
+    console.log("You got an F");
+}
